@@ -1,0 +1,46 @@
+<html>
+
+<head>
+  <title>娃娃機地圖</title>
+  <style>
+    #login_block
+    {
+      text-align: center;
+      border-style: dashed;
+      height:500px;
+    }
+    #login_form
+    {
+      text-align:left; 
+      border-style:dashed;
+      border-color:red;
+      width: 300px;
+      height: 150px;
+      margin:left;
+      padding: 15px;
+    }
+    #form_headtext
+    {
+        align: center;
+        margin:auto;
+        font-size:20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="login_block" action="form_action.asp" method="GET">
+      <h1 id="form_headtext">歡迎來到娃娃機地圖</h1>
+    <div id="login_form">
+      帳號:<input type="text" name="account">
+      <a href="register.html">註冊</a>
+      <br><br>
+      密碼:<input type="text" name="password">
+      <a href="searchpass.html">找回密碼</a>
+      <br><br>
+      <input type="button" value="登入">
+    </div>
+  </div>
+</body>
+
+</html>

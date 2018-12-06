@@ -1,0 +1,72 @@
+<html>
+
+<head>
+</head>
+<style>
+  #login_block
+  {
+    text-align: center;
+    border-style: dashed;
+  }
+  .rq
+  {
+    color:red;
+  }
+  .textalign
+  {
+text-align: right;
+
+  }
+  #login_form
+  {
+    text-align: left;
+    border-style: dashed;
+    border-color: red;
+    margin:auto;
+    width: 300px;
+    height: 500px;
+    padding: 15px;
+  }
+      #form_headtext
+    {
+        align: center;
+        margin:auto;
+        font-size:20px;
+    }
+
+</style>
+
+<body>
+  <div id="login_block" action="form_action.asp" method="GET">
+    <h1 id="form_headtext">註冊</h1>
+    <div id="login_form">
+      <table border='0' cellspacing='0' cellpadding='0' width=300px>
+        <tr>
+          <td><span class="rq">*</span>帳號:</td>
+          <td><input type="text" name="account"></td>
+        </tr>
+        <br><br>
+        <td><span class="rq">*</span>密碼:</td>
+        <td><input type="text" name="password"></td>
+        <br><br>
+        <tr>
+          <td><span class="rq">*</span>確認密碼:</td>
+          <td><input type="text" name="checkpassword"></td>
+        </tr>
+        <br><br>
+        <tr>
+          <td><span class="rq">*</span>信箱:</td>
+          <td><input type="text" name="email"></td>
+        </tr>
+        <br><br>
+        <tr>
+          <td></td>
+          <td><input type="button" value="確定"></td>
+        </tr>
+      </table>
+    </div>
+
+  </div>
+</body>
+
+</html>
